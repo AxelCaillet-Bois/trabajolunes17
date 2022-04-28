@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV Axel Emilien - Formulario</title>
+    <link rel="stylesheet" href="styleCVAxelEmilien.css">
+</head>
+
+<body>
+    <div id="cvhead">
+        <h1>AXEL EMILIEN CAILLET-BOIS</h1>
+    </div>
+    <div id="cvform">
+        <h3>Formulario de contacto</h3>
+        <form>
+            <!-- <label for="contacto_nombre">Nombre:</label> -->
+            <input type="text" name="nombre" id="contacto_nombre" placeholder="Nombre" />
+            <br>
+            <!-- <label for="contacto_apellido">Apellido:</label> -->
+            <input type="text" name="apellido" id="contacto_apellido" placeholder="Apellido">
+            <br>
+            <!-- <label for="contacto_email">Email:</label> -->
+            <input type="email" name="email" id="contacto_email" placeholder="Correo electrónico">
+            <br>
+            <label for="">Motivo:</label>
+            <input type="radio" class="formTopic" name="motivo" value="laboral">Laboral
+            <input type="radio" class="formTopic" name="motivo" value="social">Social
+            <input type="radio" class="formTopic" name="motivo" value="otro">Otro
+            <br>
+            <input type="text" class="formSubject" name="asunto" placeholder="Asunto">
+            <br>
+            <textarea class="formMessage" name="mensaje" cols="30" rows="5" placeholder="¿Sí?"></textarea>
+            <br>
+            <input type="submit" class="formButtonSend" value="Enviar">
+            <input type="reset" class="formButtonClear" value="Borrar">
+        </form>
+    </div>
+</body>
+
+</html>

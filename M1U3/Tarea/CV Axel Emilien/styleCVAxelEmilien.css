@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    background-color: #dcdcdc;
+}
+
+#cvhead {
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #9a9a9a;
+}
+
+#cvpicture {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.67rem;
+    padding-bottom: 0.67rem;
+}
+
+#cvpicture img {
+    border: 3px solid black;
+}
+
+#cvtext {
+    border: 3px solid black;
+    background-color: #c8c8c8;
+    max-width: 713.108px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+}
+
+#cvtext h3 {
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+}
+
+#cvtext h4 {
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.33rem;
+}
+
+#cvtext ul {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 0.33rem;
+    margin-bottom: 0.67rem;
+}
+
+#cvtext p {
+    padding-left: 0.67rem;
+    padding-right: 1rem;
+    margin-top: 0.33rem;
+    margin-bottom: 0.67rem;
+    text-align: justify;
+    text-indent: 1.3rem;
+}
+
+#cvtext .profileSignature {
+    text-align: right;
+    padding-right: 4rem;
+
+}
+
+#cvtext h5 {
+    font-style: italic;
+    padding-left: 0.67rem;
+    padding-right: 1rem;
+    text-align: right;
+}
+
+#cvtext a:visited {
+    color: #404040;
+}
+
+#cvtext a:hover {
+    color: #008000;
+}
+
+
+/* STYLE FORMULARIO */
+
+#cvform {
+    border: 3px solid black;
+    background-color: #c8c8c8;
+    max-width: 295px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0.67rem auto auto auto;
+}
+
+#cvform h3 {
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+}
+
+#cvform label {
+    padding-left: 0.67rem;
+    padding-right: auto;
+}
+
+#cvform input {
+    padding-left: 0.67rem;
+    padding-right: 0rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    margin-left: 0.67rem;
+    width: 16rem;
+}
+
+#cvform .formTopic {
+    width: auto;
+}
+
+#cvform .formMessage {
+    margin-left: 0.67rem;
+    padding-left: 0.67rem;
+    width: 16rem;
+}
+
+#cvform .formButtonSend, #cvform .formButtonClear {
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 0.33rem;
+}
+
+#cvform .formButtonSend:hover {
+    color: green;
+}
+
+#cvform .formButtonClear:hover {
+    color: red;
+}
