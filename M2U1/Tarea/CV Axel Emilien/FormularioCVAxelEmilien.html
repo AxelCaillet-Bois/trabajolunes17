@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV Axel Emilien - Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Newsreader&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="FormularioCVAxelEmilien.css">
+</head>
+
+<body id="BodyForm">
+    <div id="headCV">
+        <h1>Axel Emilien</h1>
+    </div>
+    <div id="formBox">
+        <h3>FORMULARIO DE CONTACTO</h3>
+        <form>
+            <!-- <label for="contacto_nombre">Nombre:</label> -->
+            <input type="text" name="nombre" id="contacto_nombre" placeholder="Nombre" />
+            <br>
+            <!-- <label for="contacto_apellido">Apellido:</label> -->
+            <input type="text" name="apellido" id="contacto_apellido" placeholder="Apellido">
+            <br>
+            <!-- <label for="contacto_email">Email:</label> -->
+            <input type="email" name="email" id="contacto_email" placeholder="Correo electrónico">
+            <br>
+            <label for="">Motivo:</label>
+            <input type="radio" class="formTopic" name="motivo" value="laboral">Laboral
+            <input type="radio" class="formTopic" name="motivo" value="social" checked="checked">Social
+            <input type="radio" class="formTopic" name="motivo" value="otro">Otro
+            <br>
+            <input type="text" class="formSubject" name="asunto" placeholder="Asunto">
+            <br>
+            <textarea class="formMessage" name="mensaje" cols="30" rows="5" placeholder="¿Sí?"></textarea>
+            <br>
+            <input type="submit" class="formButtonSend" value="Enviar">
+            <input type="reset" class="formButtonClear" value="Borrar">
+        </form>
+    </div>
+</body>
+
+</html>

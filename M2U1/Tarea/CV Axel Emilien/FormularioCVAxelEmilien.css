@@ -1,0 +1,118 @@
+/* font-family: 'Grape Nuts', cursive;
+/* font-family: 'Newsreader', serif;
+*/
+
+body {
+    margin: 0px;
+    background: #ececec;
+    background: linear-gradient(160deg, #ececec 0%, #c5c5c5 80%);
+    background: -webkit-linear-gradient(160deg, #ececec 0%, #c5c5c5 80%);
+    background: -moz-linear-gradient(160deg, #ececec 0%, #c5c5c5 80%);
+}
+
+.headCV {
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    font-family: 'Grape Nuts', 'Newsreader', serif;
+    font-size: 40px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ffdcc1;
+}
+
+#BodyForm {
+    height: 1000px;
+}
+
+#formBox {
+    font-family: 'Newsreader', serif;
+    border: 1px solid black;
+    background-color: black;
+    color: black;
+    background: #dcdcdc;
+    background: radial-gradient(circle farthest-corner at bottom left, #dcdcdc 0%, #ffdcc1 50%, #cfcfcf 90%);
+    background: -webkit-radial-gradient(circle farthest-corner at bottom left, #dcdcdc 0%, #ffdcc1 50%, #cfcfcf 90%);
+    background: -moz-radial-gradient(circle farthest-corner at bottom left, #dcdcdc 0%, #ffdcc1 50%, #cfcfcf 90%);
+    max-width: 295px;
+    padding-top: 0.06rem;
+    padding-bottom: 0.16rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 1.67rem auto auto auto;
+    box-sizing: border-box;
+    border-radius: 3% 0;
+    box-shadow: -7px -5px 5px 0px rgba(4, 4, 4, 0.75);
+    -webkit-box-shadow: -7px -5px 5px 0px rgba(4, 4, 4, 0.75);
+    -moz-box-shadow: -7px -5px 5px 0px rgba(4, 4, 4, 0.75);
+}
+
+#formBox h3 {
+    color: black;
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+}
+
+#formBox label {
+    font-family: 'Newsreader', serif;
+    color: black;
+    margin-left: 0.67rem;
+    width: auto;
+}
+
+#formBox input {
+    font-family: 'Newsreader', serif;
+    padding-left: 0.67rem;
+    padding-right: 0rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    margin-left: 0.67rem;
+    width: 16rem;
+}
+
+#formBox .formTopic {
+    margin-left: 0.37rem;
+    width: auto;
+}
+
+#formBox .formTopic span {
+    color: #ffdcc1;
+}
+
+
+#formBox .formMessage {
+    margin-left: 0.67rem;
+    padding-left: 0.67rem;
+    width: 16rem;
+}
+
+#formBox .formButtonSend,
+#formBox .formButtonClear {
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 0.33rem;
+}
+
+#formBox .formButtonSend {
+    margin-left: 2.1rem;
+}
+
+#formBox .formButtonClear {
+    margin-left: 0.1rem;
+}
+
+#formBox .formButtonSend:hover {
+    color: green;
+}
+
+#formBox .formButtonClear:hover {
+    color: rgb(199, 199, 51);
+}
