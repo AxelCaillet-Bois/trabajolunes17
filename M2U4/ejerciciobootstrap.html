@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercico BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="ejerciciobootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: rgb(187, 109, 8);">
+        <!-- encabezado -->
+        <div class="row headABC">
+            <h1>BOOTSTRAP</h1>
+        </div>
+        <!-- fin encabezado -->
+
+        <!-- barra de navegación -->
+        <div class="row">
+            <div class="collapse " id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <!-- fin barra de navegación -->
+
+
+        <!--SECCIONES -->
+        <div class="row">
+            <div class="col-12 col-sm col-md-5 col-lg-6 col-xl-7 colA">A</div>
+            <div class="col-12 col-sm col-md col-lg col-xl colB">B</div>
+            <div class="col-12 col-sm col-md col-lg-2 col-xl-1 colC">C</div>
+        </div>
+        <!-- fin SECCIONES -->
+        
+        <!-- TÍTULO NOTA -->
+        <div class="row titulo">
+            <h2>Título</h2>
+        </div>
+        <!-- fin TÍTULO NOTA-->
+        
+        <!-- INTRODUCCION Y FOTOS -->
+        <div class="row">
+            <div class="col-md introNota">INTRO) Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam deleniti
+                voluptatibus reiciendis, assumenda nulla optio accusantium sed, dolor non fuga eum dignissimos autem,
+                est saepe pariatur accusamus incidunt nemo iure.</div>
+            <!-- carrusel -->
+            <div class="col-md-7 fotosNota">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- fin carrusel -->
+        </div>
+        <!-- fin INTRODUCCION Y FOTOS -->
+
+        <!-- NOTA -->
+        <div class="row row3"> E) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, dolore? Quidem nisi
+            sequi odio veritatis quia iure totam ducimus? Quae voluptas expedita eveniet aliquid provident fuga numquam
+            at sunt voluptates. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil facere suscipit nam
+            deserunt ullam fugiat possimus veritatis hic consequuntur quis in similique fugit reprehenderit, sint
+            perspiciatis. Fugit corrupti illum culpa! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Cupiditate facilis pariatur ad impedit dignissimos. Facere alias tenetur expedita consectetur, distinctio
+            sit voluptatum maiores? Aut delectus perferendis placeat vitae animi molestiae! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quam rerum sit dolore a esse animi labore voluptatum, ipsa corporis
+            perferendis quas dolorem minus, officiis nisi non? Quidem modi veniam rerum. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quos rerum iure quibusdam maiores iusto nobis cum numquam recusandae
+            cupiditate, pariatur id officiis necessitatibus dignissimos, adipisci, tempore non. Laboriosam, ex tempora.
+        </div>
+        <!-- fin NOTA -->
+
+        <!-- logueo -->
+        <div class="row">
+            <form class="logueo">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn">Log in</button>
+            </form>
+        </div>
+        <!-- fin logueo -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
